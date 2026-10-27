@@ -35,7 +35,7 @@
     "分类列表数组规则": ".grid&&.card",
     "分类片单是否Jsoup写法": "1",
     "分类片单标题": ".card__title&&a&&Text",
-    "分类片单链接": "card__link&&href",//替换规则
+    "分类片单链接": ".card__link&&href",//替换规则
     "分类片单图片": "img&&src",
     // "分类片单副标题": ".duration&&Text+'👁️'+.detail-item&&span,0&&Text",
     "分类片单链接加前缀": "https://123av.com/",
@@ -48,7 +48,7 @@
     "搜索片单是否Jsoup写法": "1",
     "搜索片单图片": "img&&src",
     "搜索片单标题": ".card__title&&a&&Text",
-    "搜索片单链接": "card__link&&href",
+    "搜索片单链接": ".card__link&&href",
     // "搜索片单副标题": ".duration&&Text+'👁️'+.detail-item&&span,0&&Text",
     "搜索片单链接加前缀": "https://123av.com/",
     "搜索片单链接加后缀": "",
